@@ -6969,7 +6969,7 @@ htmlparser2@^6.0.0, htmlparser2@^6.1.0:
     domutils "^2.5.2"
     entities "^2.0.0"
 
-htmlparser2@^8.0.1:
+htmlparser2@^8.0.0, htmlparser2@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-8.0.1.tgz#abaa985474fcefe269bc761a779b544d7196d010"
   integrity sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==
@@ -11845,6 +11845,18 @@ sanitize-html@^2.3.2:
     deepmerge "^4.2.2"
     escape-string-regexp "^4.0.0"
     htmlparser2 "^6.0.0"
+    is-plain-object "^5.0.0"
+    parse-srcset "^1.0.2"
+    postcss "^8.3.11"
+
+sanitize-html@^2.8.0:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-2.8.1.tgz#319c4fdba67e1edf35b1fd6d9362210044826d47"
+  integrity sha512-qK5neD0SaMxGwVv5txOYv05huC3o6ZAA4h5+7nJJgWMNFUNRjcjLO6FpwAtKzfKCZ0jrG6xTk6eVFskbvOGblg==
+  dependencies:
+    deepmerge "^4.2.2"
+    escape-string-regexp "^4.0.0"
+    htmlparser2 "^8.0.0"
     is-plain-object "^5.0.0"
     parse-srcset "^1.0.2"
     postcss "^8.3.11"
